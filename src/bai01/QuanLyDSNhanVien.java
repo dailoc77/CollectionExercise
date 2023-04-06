@@ -32,24 +32,6 @@ public class QuanLyDSNhanVien {
 		return nvCanThe[giftedIndex];
 	}
 
-//	public String findMostUsedName() {
-//		List<NhanVien> list = new ArrayList<>();
-//		for (NhanVien nhanVien : ds) {
-//			list.add(nhanVien);
-//		}
-//		String tenCanTim = list.get(0).getName();
-//		int count;
-//		for (int i = 1; i < list.size(); i++) {
-//			count = 0;
-//			if (tenCanTim.equals(list.get(i).getName())) {
-//				count++;
-//				list.remove(i);
-//			}
-//		}
-//		System.out.println(count);
-//		return tenCanTim;
-//	}
-
 	public String findMostUsedName() {
 		List<NhanVien> list = new ArrayList<>();
 		for (NhanVien nhanVien : ds) {
